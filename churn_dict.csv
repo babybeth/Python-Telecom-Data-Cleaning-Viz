@@ -1,0 +1,109 @@
+,Variable,Type,Description
+1,GENDER_CD,Char,Gender code
+2,EDUCATION_CD,Char,Education code
+3,OCCUPATION_CAT_CD,Char,Standard occupation Code
+4,SUBS_TENURE,Num,Tenure on network
+5,OB_CALL_INTL_DUR_BASE_1,Num,Duration of international calls in base  1 month
+6,OB_CALL_INTL_DUR_BASE_2,Num,Duration of international calls in base 2 month
+7,OB_CALL_INTL_DUR_BASE_3,Num,Duration of international calls in base 3 month
+8,OB_CALL_INTL_DUR_BASE_4,Num,Duration of international calls in base 4 month
+9,OB_CALL_INTL_DUR_BASE_5,Num,Duration of international calls in base 5 month
+10,OB_CALL_INTL_DUR_BASE_6,Num,Duration of international calls in base 6 month
+11,OB_CALL_NAT_ROAM_CNT_BASE_1,Num,Duration of roaming calls in base 1 month
+12,OB_CALL_NAT_ROAM_CNT_BASE_2,Num,Duration of roaming calls in base 2 month
+13,OB_CALL_NAT_ROAM_CNT_BASE_3,Num,Duration of roaming calls in base 3 month
+14,OB_CALL_NAT_ROAM_CNT_BASE_4,Num,Duration of roaming calls in base 4 month
+15,OB_CALL_NAT_ROAM_CNT_BASE_5,Num,Duration of roaming calls in base 5 month
+16,OB_CALL_NAT_ROAM_CNT_BASE_6,Num,Duration of roaming calls in base 6 month
+17,OB_CALL_LOC_DUR_BASE_1,Num,Duration of local calls in base 1 month
+18,OB_CALL_LOC_DUR_BASE_2,Num,Duration of local calls in base 2 month
+19,OB_CALL_LOC_DUR_BASE_3,Num,Duration of local calls in base 3 month
+20,OB_CALL_LOC_DUR_BASE_4,Num,Duration of local calls in base 4 month
+21,OB_CALL_LOC_DUR_BASE_5,Num,Duration of local calls in base 5 month
+22,OB_CALL_LOC_DUR_BASE_6,Num,Duration of local calls in base 6 month
+23,OB_CALL_NAT_DUR_BASE_1,Num,Duration of national calls in base 1 month
+24,OB_CALL_NAT_DUR_BASE_2,Num,Duration of national calls in base 2 month
+25,OB_CALL_NAT_DUR_BASE_3,Num,Duration of national calls in base 3 month
+26,OB_CALL_NAT_DUR_BASE_4,Num,Duration of national calls in base 4 month
+27,OB_CALL_NAT_DUR_BASE_5,Num,Duration of national calls in base 5 month
+28,OB_CALL_NAT_DUR_BASE_6,Num,Duration of national calls in base 6 month
+29,TOT_CALL_INTL_ROAM_DUR,Num,Total duration of international roaming calls over 6 months
+30,TOT_OB_CALL_INTL_DUR,Num,Total  duration of international calls over 6 months
+31,TOT_OB_CALL_LOC_DUR,Num,Total duration of local calls over 6 months
+32,TOT_OB_CALL_NAT_DUR,Num,Total  duration of national calls over 6 months
+33,IB_CALL_PRD8_DUR_BASE_1,Num,Duration of incoming calls in base 1 month
+34,IB_CALL_PRD8_DUR_BASE_2,Num,Duration of incoming calls in base 2 month
+35,IB_CALL_PRD8_DUR_BASE_3,Num,Duration of incoming calls in base 3 month
+36,IB_CALL_PRD8_DUR_BASE_4,Num,Duration of incoming calls in base 4 month
+37,IB_CALL_PRD8_DUR_BASE_5,Num,Duration of incoming calls in base 5 month
+38,IB_CALL_PRD8_DUR_BASE_6,Num,Duration of incoming calls in base 6 month
+39,OB_CALL_DUR_BASE_1,Num,Duration of outgoing calls in base 1 month
+40,OB_CALL_DUR_BASE_2,Num,Duration of outgoing calls in base 2 month
+41,OB_CALL_DUR_BASE_3,Num,Duration of outgoing calls in base 3 month
+42,OB_CALL_DUR_BASE_4,Num,Duration of outgoing calls in base 4 month
+43,OB_CALL_DUR_BASE_5,Num,Duration of outgoing calls in base 5 month
+44,OB_CALL_DUR_BASE_6,Num,Duration of outgoing calls in base 6 month
+45,TOT_IB_CALL_DUR,Num,Total duration of incoming calls over 6 months
+46,AVG_OB_CALL_DUR,Num,Average duration of outbound calls over 6 months
+47,TOT_IB_CALL_CNT,Num,Total number of incoming calls over 6 months
+48,AVG_OB_CALL_CNT,Num,Average number of outgoing calls over 6 months
+49,TOT_OB_CALL_NAT_ROAM_CNT,Num,Total  number of roaming calls over 6 months
+50,TOT_OB_CALL_INTL_CNT,Num,Total  number of international calls over 6 months
+51,TOT_OB_CALL_LOC_CNT,Num,Total  number of local calls over 6 months
+52,TOT_OB_CALL_NAT_CNT,Num,Total  number of national calls over 6 months
+53,TOT_OB_CALL_INTL_ROAM_CNT,Num,Total  number of international roaming calls over 6 months
+54,TOT_EARNED_POINTS_CNT,Num,Total no. of points earned in last 6 months
+55,TOT_DACTV_SUBS_LAST_MTH_CNT,Num,No. of dactivated subscriptions in last month
+56,TOT_DAY_LAST_COMPLAINT_CNT,Num,No. of days since last complaint made
+57,TOT_DAY_LAST_OB_BARRED_CNT,Num,No. of days since last outbound barred
+58,TOT_DAY_LAST_SUSPENDED_CNT,Num,No. of days since last suspension
+59,TOT_EMAIL_QUERY_CNT,Num,Total no. of email queries in last 6 months
+60,CUST_SEG_CD,Char,Customer segment code
+61,MTH_TO_SUBS_END_CNT,Num,Months to subscription end
+62,TOT_SRV_DROPPED_CNT,Num,No. of services dropped in last 6 months
+63,TOT_SRV_ADDED_CNT,Num,No. of services added in last 6 months
+64,TOT_OUTSTAND_30_60_DAY_AMT,Num,Outstanding amount in 30 to 60 days delinquency period
+65,TOT_OUTSTAND_30_DAY_AMT,Num,Outstanding amount in 30 days delinquency period
+66,TOT_OUTSTAND_60_90_DAY_AMT,Num,Outstanding amount in 60 to 90 days delinquency period
+67,TOT_REV_FIX_AMT,Num,Total revenue due to calls to fixline
+68,TOT_REV_GPRS_AMT,Num,Total revenue due to GPRS
+69,TOT_REV_INET_AMT,Num,Total revenue due to internet
+70,TOT_COMPLAINT_1_MTH_CNT,Num,Total no. of complaints in last month
+71,NET_SUBS_CHNG_6_MTH_CNT,Num,Net change in the subscriptions in last 6 months
+72,TOT_MTH_LAST_SUSPENDED_CNT,Num,No. of months since last suspension
+73,LAST_PRICE_PLAN_CHNG_DAY_CNT,Num,No. of days since last price plan change
+74,MTH_SINCE_DATA_ACTVN,Num,Months since data activation service
+75,MTH_SINCE_VM_ACTVN,Num,Months since voice mail activation service
+76,BARRING_REASON_CD,Char,Barring type code
+77,TOT_OB_CALL_CNT,Num,Total number of outgoing calls over 6 months
+78,TOT_ACTV_SRV_CNT,Num,Total no. of active services
+79,REV_AMT_BASE_1,Num,Revenue amount in base 1 month
+80,REV_AMT_BASE_2,Num,Revenue amount in base 2 month
+81,REV_AMT_BASE_3,Num,Revenue amount in base 3 month
+82,REV_AMT_BASE_4,Num,Revenue amount in base 4 month
+83,REV_AMT_BASE_5,Num,Revenue amount in base 5 month
+84,REV_AMT_BASE_6,Num,Revenue amount in base 6 month
+85,CURR_PRICE_PLAN_CD,Char,Current price plan code
+86,CURR_PAY_METHOD_CD,Char,Current payment method code
+87,POSTAL_CD,Char,Client Post Code
+88,PREV_PRICE_PLAN_CD,Char,Previous Pricing Plan Code
+89,CUST_AGE,Num,Customer age
+90,AVG_DISTINCT_CELL_CNT,Num,Average distinct cell sites visited count
+91,MOST_FREQ_COMPLAINT_CD,Char,Most frequent complaint code
+92,CUST_SPEC_NO_CNT,Num,Special number count
+93,PCT_CHNG_OB_INTL_CNT,Num,Percent change of latest 2 months international calls wrt previous 4 months nternational calls
+94,PCT_CHNG_IB_SMS_CNT,Num,Percent change of latest 2 months incoming SMS wrt previous 4 months incoming SMS
+95,PCT_CHNG_OB_LOC_CNT,Num,Percent change of latest 2 months local calls wrt previous 4 months local calls
+96,PCT_CHNG_OB_NAT_CNT,Num,Percent change of latest 2 months outbound national calls wrt previous 4 months outbound national calls
+97,PCT_CHNG_OB_LOC_SMS_CNT,Num,Percent change of latest 2 months outgoing local SMS wrt previous 4 months outgoing local SMS
+98,PCT_CHNG_OB_WAP_CNT,Num,Percent change of latest 2 months outbound WAP wrt previous 4 months outbound WAP
+99,PROPN_IB_LOW_DUR,Num,Proportion of inbound call in low rate period
+100,RATIO_SPEC_SMS_SMS_REV_AMT,Num,Ratio of special SMS revenue amount to SMS revenue amount
+101,PCT_CHNG_SUSPENDED_CNT,Num,Percent change of latest 2 months suspended calls wrt previous 4 months suspended calls
+102,PCT_CHNG_BILL_AMT,Num,Percent change of latest 2 months bill amount wrt previous 4 months bill amount
+103,CUST_SUBS_ID,Num,Subscription identifier
+104,TOT_REV_AMT,Num,Customer Value
+105,TOT_PROF_AMT,Num,Total profitability of a subscription
+106,CUST_ID,Num,Customer identifier
+107,name,Char,Subscriber Name
+108,CHURN_FLG,Char,Churn flag
